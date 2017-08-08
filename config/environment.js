@@ -17,7 +17,7 @@ module.exports = function(environment) {
       apiKey: "AIzaSyDSa6pffvfPHDlPk02uAT1goN2j5jpC2PA",
       authDomain: "bustle-clone-71bfa.firebaseapp.com",
       databaseURL: "https://bustle-clone-71bfa.firebaseio.com",
-      storageBucket: "",
+      storageBucket: "bustle-clone-71bfa.appspot.com"
     },
 
     APP: {
