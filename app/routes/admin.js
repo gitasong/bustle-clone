@@ -9,7 +9,7 @@ export default Ember.Route.extend({
     saveArticle(params) {
       var newArticle = this.store.createRecord('article', params);
       newArticle.save();
-      this.transitionTo('index');
+      this.transitionTo('admin');
     }
   }
 });
