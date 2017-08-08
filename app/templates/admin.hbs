@@ -1,1 +1,9 @@
-{{outlet}}
+<h1>Today's Top Stories</h1>
+
+{{new-article saveArticle="saveArticle"}}
+
+<ul>
+  {{#each model as |article|}}
+    {{article-tile article=article}}
+  {{/each}}
+</ul>
