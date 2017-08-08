@@ -1,8 +1,10 @@
 <li>
+  {{#link-to 'article' article.id}}
   <div class="article-image">
     {{article.image}}
   </div>
   <h3>{{article.title}}</h3>
   <p>{{article.teaser}}</p>
   By <cite>{{article.author}}</cite>
+  {{/link}}
 </li>
