@@ -1,4 +1,4 @@
-img {
+header img {
   max-width: 100px
 }
 
@@ -13,4 +13,21 @@ img {
 .logo {
   text-align: center;
   margin: auto;
+}
+
+img {
+  max-width: 60%;
+}
+
+.tile {
+  text-align: left;;
+  margin: 2rem 10rem 2rem 0;
+}
+
+.article-tile {
+  max-width: 80%;
+}
+
+.img-responsive.article-image {
+  max-width: 90%;
 }
