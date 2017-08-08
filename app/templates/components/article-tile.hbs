@@ -1,11 +1,14 @@
-{{#link-to 'article' article.id}}
-<li>
-  <h3>{{article.title}}</h3>
-  <div class="article-image">
-    <img src="{{article.image}}">
-  </div>
-
-  <p>{{article.teaser}}</p>
-  By <cite>{{article.author}}</cite>
-</li>
-{{/link-to}}
+<div class="container tile justify-content-md-center">
+  <row class="article-tile">
+    {{#link-to 'article' article.id}}
+      <div class="col-md-5 offset-md-1">
+        <img src="{{article.image}}" class="img-responsive article-image">
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <h3>{{article.title}}</h3>
+        <p>{{article.teaser}}</p>
+        By <cite>{{article.author}}</cite>
+      </div>
+    {{/link-to}}
+  </row>
+</div>
