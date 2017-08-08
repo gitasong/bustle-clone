@@ -1,0 +1,16 @@
+img {
+  max-width: 100px
+}
+
+.hamburger img {
+  max-width: 30px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.logo {
+  text-align: center;
+  margin: auto;
+}
